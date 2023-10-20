@@ -1,0 +1,163 @@
+html {
+  width: 100%;
+}
+
+.navbar-container {
+  margin: 0 19rem;
+}
+
+.page-title {
+  padding: 1.5rem;
+  background-color: rgb(121, 156, 68);
+}
+
+.page-link {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container {
+  background-color: whitesmoke;
+  padding: 0;
+}
+
+.pasta-img {
+  height: 30rem;
+  width: 100%;
+  background-image: url("tomato basil buratta pasta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.author-img {
+  border-radius: 50%;
+  width: 30%;
+}
+
+ul li,
+.description {
+  list-style: none;
+  text-align: left;
+}
+
+.rate {
+  background-color: #ff4701;
+  width: 6rem;
+  padding: 4px;
+}
+
+.rate-container {
+  background-color: #b22222;
+  color: white;
+}
+
+.recom {
+  text-align: center;
+  padding: 4rem;
+}
+
+.recom h1 {
+  letter-spacing: 10px;
+  font-weight: lighter;
+}
+
+.card {
+  width: 22rem;
+  height: 28rem;
+}
+.card-title {
+  text-align: center;
+}
+
+.card-img-top {
+  height: 12rem;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviews img {
+  height: 4.2rem;
+  border-radius: 50%;
+}
+
+.reviews .rating {
+  text-align: center;
+  background-color: #6c8d25;
+  padding: 5px;
+  color: white;
+  border-radius: 3px;
+}
+
+.footer-content {
+  padding: 2rem 13rem;
+  background-color: rgb(65, 63, 63);
+  color: #fff;
+}
+
+.footer-content .logo {
+  text-align: center;
+}
+
+.footer-content .logo img {
+  width: 40%;
+}
+
+.footer {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.footer .copyright {
+  margin-left: 18rem;
+}
+
+.container-social {
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 5rem;
+}
+
+.container-social img {
+  height: 24px;
+  margin: 0 8px;
+}
+
+.footer .web-author {
+  margin-right: 19rem;
+}
+
+.container-social img,
+.contact img,
+.rate-container img,
+.page-title img,
+.web-author img {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.page-link img {
+  filter: grayscale(50);
+}
+
+.bg-light {
+  background-color: #fff !important;
+  border: 1px dashedreviews rgb(212, 212, 212);
+}
+
+@media only screen and (max-width: 360px) {
+  .navbar-container {
+    margin: 0;
+  }
+}
